@@ -3,10 +3,10 @@
 Forked from https://github.com/webdeskltd/dadata.
 
 
-[![Build Status](https://travis-ci.org/ekomobile/dadata.svg)](https://travis-ci.com/ekomobile/dadata)
-[![GitHub release](https://img.shields.io/github/release/ekomobile/dadata.svg)](https://github.com/ekomobile/dadata/releases)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ekomobile/dadata)](https://goreportcard.com/report/github.com/ekomobile/dadata/v2)
-[![GoDoc](https://godoc.org/github.com/ekomobile/dadata/v2?status.svg)](https://godoc.org/github.com/ekomobile/dadata/v2)
+[![Build Status](https://travis-ci.org/1xtr/dadata.svg)](https://travis-ci.com/1xtr/dadata)
+[![GitHub release](https://img.shields.io/github/release/1xtr/dadata.svg)](https://github.com/1xtr/dadata/releases)
+[![Go Report Card](https://goreportcard.com/badge/github.com/1xtr/dadata)](https://goreportcard.com/report/github.com/1xtr/dadata/v2)
+[![GoDoc](https://godoc.org/github.com/1xtr/dadata/v2?status.svg)](https://godoc.org/github.com/1xtr/dadata/v2)
 
 DaData API v2
 
@@ -14,7 +14,7 @@ Implemented [Clean](https://dadata.ru/api/clean/) and [Suggest](https://dadata.r
 
 ## Installation
 
-`go get github.com/ekomobile/dadata/v2`
+`go get github.com/1xtr/dadata/v2`
 
 ## Usage
 ```go
@@ -22,8 +22,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ekomobile/dadata/v2"
-	"github.com/ekomobile/dadata/v2/api/suggest"
+	"github.com/1xtr/dadata/v2"
+	"github.com/1xtr/dadata/v2/api/suggest"
 )
 
 func DaDataExample()  {
