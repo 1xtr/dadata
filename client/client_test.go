@@ -7,8 +7,8 @@ import (
 	"io"
 	"net/url"
 
-	"github.com/ekomobile/dadata/v2/api/suggest"
-	"github.com/ekomobile/dadata/v2/client/transport"
+	"github.com/1xtr/dadata/v2/api/suggest"
+	"github.com/1xtr/dadata/v2/client/transport"
 )
 
 func ExampleNewClient() {
