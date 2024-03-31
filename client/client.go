@@ -88,6 +88,9 @@ func (c *Client) doRequest(ctx context.Context, method string, url *url.URL, bod
 	defer response.Body.Close()
 
 	if http.StatusOK != response.StatusCode {
+		if err = c.options.decoderFactory(response.Body)(&result); err != nil {
+			return fmt.Errorf("doRequest: response body decode err: %w", err)
+		}
 		return fmt.Errorf(
 			"doRequest: Response not OK: %w",
 			&ResponseError{Status: response.Status, StatusCode: response.StatusCode},
