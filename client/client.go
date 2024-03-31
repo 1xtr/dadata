@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/ekomobile/dadata/v2/client/transport"
+	"github.com/1xtr/dadata/v2/client/transport"
 )
 
 type (

@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/ekomobile/dadata/v2/client/transport"
+	"github.com/1xtr/dadata/v2/client/transport"
 )
 
 type (
